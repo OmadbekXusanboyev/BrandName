@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+header{
+     background-image: url(../image/background.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+.container{
+     font-family: "Montserrat", sans-serif;
+}
+main,footer{
+     background-color: #252B42;
+}
+.card-body .card-text{
+     font-size: 10px;
+     width: 200px;
+}
+
+.navbar-nav .nav-link{
+     transition: all 0.3s ease;
+}
+.navbar-nav .nav-link:hover{
+     transform: scale(0.9) translateY(-3px);
+}
+
+.btn:hover{
+     transform: scale(1.1) translateY(-3px);
+}
+.col-lg-3{
+     transition: all 0.3s ease;
+}
+.col-lg-3:hover{
+
+     transform: scale(1.1) translateY(-5px);
+     cursor: pointer;
+}
+.card{
+     transition: all 0.4s ease;
+}
+.card1:hover{
+     cursor: pointer;
+     transform: scale(1.1) translateY(-10px) translateX(-30px);
+}
+.card2:hover{
+     cursor: pointer;
+     transform: scale(1.1) translateY(-10px) translateX(30px);
+}
+
+.card:hover{
+     cursor: pointer;
+     transform: scale(1.1) ;
+}
+.social{
+     transition: all 0.3s ease;
+}
+.social:hover{
+     cursor: pointer;
+     transform: scale(1.1) translateY(-3px);
+}
